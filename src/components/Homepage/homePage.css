@@ -1,0 +1,50 @@
+.container {
+  width: 100%;
+  margin-top: 15em;
+}
+.container article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container img {
+  width: 100%;
+  max-width: 750px;
+}
+.container h2 {
+  margin-top: 1em;
+  color: #FE1936;
+  font-size: 30px;
+}
+.container p {
+  margin-top: 0.5em;
+  font-size: 20px;
+  font-weight: 300;
+}
+.container form {
+ margin-top: 1em;
+ width: 21%;
+}
+.container input {
+  width: 100%;
+  max-width: 250px;
+  padding: 0.7em;
+  color: black;
+  box-shadow: 0px 0px 3px 2px #aaa;
+  border: none;
+  border-radius: 0.3em;
+}
+.container button {
+  background-color: #D93F3F;
+  border: none;
+  padding: 0.8em;
+  border-radius: 0 0 0.4em;
+  color: #fff;
+}
+
+.container .imgOne {
+  width: 100%;
+  max-width: 1897px;
+  margin-top: 14em;
+}

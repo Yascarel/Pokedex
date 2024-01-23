@@ -1,0 +1,51 @@
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  position: relative;
+}
+.Container ul {
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  max-width: 1200px;
+}
+.Container .aTwo {
+  border: 0.1em solid hsl(0deg,0%,86%);
+  border-radius: 0.4em;
+  padding: 1em;
+  cursor: pointer;
+  color: hsl(0deg,0%,21%);;
+}
+.Container div {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+}
+.Container .aOne {
+  border: 0.1em solid hsl(0deg,0%,86%);
+  border-radius: 0.4em;
+  padding: 1em;
+  cursor: pointer;
+  color: hsl(0deg,0%,21%);;
+}
+.Container .aThree {
+  border: 0.1em solid hsl(0deg,0%,86%);
+  border-radius: 0.4em;
+  padding: 1em;
+  cursor: pointer;
+  color: hsl(0deg,0%,21%);;
+} 
+.Container li .active {
+  background-color: hsl(229deg,53%,53%);
+  color: white;
+}
+ .Container .disabled {
+  pointer-events: none;
+  text-decoration: none;
+  color: gray;
+  cursor: not-allowed;
+}
