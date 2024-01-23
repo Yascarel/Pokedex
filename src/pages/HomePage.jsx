@@ -2,7 +2,7 @@ import { useRef } from "react"
 import { setTrainerG } from "../store/trainer.state"
 import { useDispatch } from "react-redux"
 import { useNavigate } from "react-router-dom"
-import '../components/Homepage/HomePage.css'
+import '../components/Homepage/homePage.css'
 
 
 const HomePage = () => {
